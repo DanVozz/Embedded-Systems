@@ -1,1 +1,4 @@
-# Embedded-Systems
+# Embedded_Systems
+
+Final Project:
+This repository contains files from an embedded system project designed to measure the speed of an object moving between two points using ultrasonic sensors. The project utilizes the MSP430 microcontroller to manage inputs and outputs. The final2.c file establishes foundational elements, including sensor pins, LED indicators, and UART configuration for data communication. It includes interrupt service routines for managing timing and data transmission. The CLI.c file includes a menu implementation used with Tera Term to individually test the board's external devices. The logic in these files is essential for measuring distances using ultrasonic signals and calculating the speed of the object based on the time difference between these measurements. Together, these files enable a system that not only measures speed accurately but also uses LEDs to visually indicate laps and outputs the measured speed through UART, providing a robust tool for speed monitoring in controlled environments.
